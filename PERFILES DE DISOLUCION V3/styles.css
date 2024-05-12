@@ -1,0 +1,71 @@
+
+/* CAMBIANDO EL TAMANO Y CENTRANDO EL CONTENEDOR */
+.contenedor {
+    height: 100vh;
+    width: 100vh;
+    margin: 0 auto;
+}
+
+/* SECCION DE SUMMARY Y DETAILS */
+.faq {
+    background-color: #001;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 90vh; 
+}
+
+/* CAMBIANDO EL TAMANO, COLOR Y CENTRANDO EL TITULO */
+.div__h1 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+/* CAMBIANDO EL COLOR, TAMANO DEL SUMMARY */
+
+.div__item {
+    font-weight: bold;
+    color: #fff;
+    padding: 20px 0 5px 10px;
+    list-style: none;
+}
+.div--size {
+    position: relative;
+    left: 20px;
+    font-size: 0.85em;
+}
+
+/* CAMBIANDO LAS VINETAS POR OTRO OBJETO */
+.div__item:before {
+    content: "❓";
+    padding-right: 5px;
+}
+
+/* CAMBIANDOLE EL FONDO Y PONIENDOLO UN PADDING CON UN BORDER-RADIUS */
+.div__item--content {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* CAMBIANDO LA FUENTE, EL TONO, EL TAMANO, LA DECORACION Y EL PADDING */
+.div__item--enlace {
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+}
+
+/* PONIENDO QUE CUANDO EL USUARIO PONGA EL CURSOR ENCIMA SE PONGA DEL COLOR ESTABLECIDO */
+.div__item--enlace:hover {
+    color: #000;
+}
+
+/* PONIENDO UN TEXTO O SIMBOLO ANTES DEL ENLACE */
+a:before {
+    content: "✔️";
+    padding-right: 5px;
+}
